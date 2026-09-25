@@ -21,6 +21,15 @@ public class Ex01_2 {
         // "teclado" é o nome do scanner. é ele que eu tenho que chamar pra digitar
         String nome = teclado.next();
 
+        // avisa o usuario para digitar
+        System.out.println("qual é o seu sobrenome?");
+        //chamar para digitar
+       String sobrenome = teclado.next();
+
+       // imprime o resultado
+        System.out.println("Ola, " + nome + " " + sobrenome + ", como vai?");
+
+
         // imprime o resultado
         System.out.println("Olá, " + nome + ", como vai?");
 

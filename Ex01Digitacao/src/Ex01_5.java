@@ -18,6 +18,9 @@
 -------------------------------------------------------------------*/
 public class Ex01_5 {
     public static void main(String[] args) {
+        int moeda50 = (int)(0.99 / 0.50);
+        System.out.println(valor);
+
 
     }
 }

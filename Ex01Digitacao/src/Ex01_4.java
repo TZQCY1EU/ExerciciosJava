@@ -10,8 +10,30 @@
   - calcule e imprima quantos ovos sobram
   - use a operação de divisão inteira (/) e resto da divisão (%)
 -------------------------------------------------------------------*/
+
+import org.w3c.dom.ls.LSOutput;
+
+import
+        java.util.Scanner;
+
 public class Ex01_4 {
+
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Quantos ovos a Claudete ponhou?");
+        int qtdOvos = scanner.nextInt();
+
+        int caixa = 12;
+        int i = qtdOvos / caixa;
+
+        System.out.println("Você pode levar " + i + " caixas no mercado");
+
+        int j = qtdOvos % caixa;
+
+        System.out.println("sobraram" + j + " ovos");
+
 
     }
 }
